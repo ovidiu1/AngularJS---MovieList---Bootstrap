@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html ng-app="MovieList">
+<head>
+	<title>MovieList</title>
+	<link rel="shortcut icon" type="image/png" href="favicon.ico" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link rel="stylesheet" href="/app/assets/libs/bootstrap/dist/css/bootstrap.min.css">	
+<link rel="stylesheet" type="text/css" href="/app/assets/css/main.css">
+<link rel="stylesheet" type="text/css" href="/app/assets/libs/components-font-awesome/css/font-awesome.min.css">		
+</head>
+
+<body ng-controller="AppController as ap">
+        <div ng-view></div>
+    
+	<script type="text/javascript" src="/app/assets/libs/angular/angular.min.js"></script>
+
+	<script type="text/javascript" src="/app/assets/libs/angular-route/angular-route.min.js"></script>
+
+	
+	<script type="text/javascript" src="/app/app.modules.js"></script>
+	<script type="text/javascript" src="/app/app.routes.js"></script>
+	<script type="text/javascript" src="/app/app.controller.js"></script>
+	<script type="text/javascript" src="/app/pages/home/home.controller.js"></script>	
+	<script type="text/javascript" src="/app/pages/error/error.controller.js"></script>
+	<script type="text/javascript" src="/app/constants/data.constant.js"></script>
+			
+</body>
+</html>	

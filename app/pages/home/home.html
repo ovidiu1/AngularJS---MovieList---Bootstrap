@@ -1,0 +1,41 @@
+	<h1>Movie Library</h1>
+<table class="table tabel-striped">
+	<thead>
+		<tr ng-repeat="title in ho.th">
+			<th>{{title.name}}</th>
+			<th>{{title.name1}}</th>
+			<th>{{title.name2}}</th>
+			<th>{{title.name3}}</th>
+			<th>&nbsp;</th>
+		</tr>
+		<tr>
+		 <th><input ng-model="ho.movie.title" class="form-control" type="text"></th>
+		 <th><input ng-model="ho.movie.rating" class="form-control" type="text"></th>
+		 <th><input ng-model="ho.movie.year" class="form-control" type="text"></th>
+		 <th><input ng-model="ho.movie.plot" class="form-control" type="text"></th>	
+		 <th>	
+		 	<button ng-click="ho.addMovie()" class="btn btn-success">
+				<span class="glyphicon glyphicon-plus"></span>
+			</button>
+		</th>	
+		</tr>		
+	</thead>	
+	<tbody>
+		<tr ng-repeat="movie in ho.data">
+			<td>{{movie.title}}</td>
+			<td>{{movie.rating}}</td>
+			<td>{{movie.year}}</td>
+			<td>{{movie.plot}}</td>
+			<td>	
+
+			<button ng-click="ho.selectMovie(movie)" class="btn btn-warning">
+				<span class="glyphicon glyphicon-pencil"></span>
+			</button>
+
+			<button ng-click="ho.removeMovie(movie)" class="btn btn-danger">
+				<span class="glyphicon glyphicon-remove"></span>
+			</button>
+			</td>
+		</tr>
+	</tbody>
+</table>

@@ -1,0 +1,23 @@
+{
+  "name": "rampdev",
+  "authors": [
+    "ovidiu <oleaovidiu94@gmail.com>"
+  ],
+  "description": "MovieList",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "libs",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.8",
+    "angular-route": "^1.5.8",
+    "components-font-awesome": "^4.7.0",
+    "bootstrap": "^3.3.7"
+  }
+}
