@@ -3,6 +3,5 @@
     
     angular.module('MovieList', [
         'ngRoute'
-     
     ]);
 })();

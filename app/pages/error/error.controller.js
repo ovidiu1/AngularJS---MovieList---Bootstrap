@@ -6,7 +6,5 @@
     ErrorController.$inject = ['$scope'];
     function ErrorController( $scope) {
         var er = this;
-        er.message = "ErrorController Loaded!";
-        console.log(er.message);
     }
 })();

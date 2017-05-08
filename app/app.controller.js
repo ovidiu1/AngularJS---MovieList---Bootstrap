@@ -7,7 +7,6 @@
     function AppController($rootScope, $location) {
         var ap = this;
         ap.message = "AppController Loaded!";
-        console.log(  ap.message);
     };
 
 })();
