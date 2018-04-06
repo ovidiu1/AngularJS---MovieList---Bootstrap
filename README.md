@@ -3,7 +3,7 @@
 <ul>
     <li>git clone https://github.com/ovidiu1/AngularJS---MovieList---Bootstrap.git</li>
     <li> cd AngularJS---MovieList---Bootstrap  </li>
-    <li> bower install && npm install </li>
-    <li> gulp </li>
+    <li> npm install </li>
+    <li> npm start </li>
     <li> go to localhost:8080 </li>
 </ul>
