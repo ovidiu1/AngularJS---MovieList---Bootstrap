@@ -1,4 +1,4 @@
-<h1>MovieList - Small App</h1>
+<h1>MovieList App</h1>
 <h3><a href="https://movie-list-app1.herokuapp.com"> Live Demo</a></h3>
 <h3>Install</h3>
 <ul>
