@@ -1,5 +1,6 @@
 {
-  "name": "rampdev",
+  "name": "movielist",
+  "version": "1.0.1",
   "authors": [
     "ovidiu <oleaovidiu94@gmail.com>"
   ],
