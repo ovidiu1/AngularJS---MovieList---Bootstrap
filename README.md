@@ -8,3 +8,8 @@
     <li> npm start </li>
     <li> go to localhost:8080 </li>
 </ul>
+<h3>Framework</h3>
+<ul>
+ <li> <a href="https://angularjs.org/">AngularJS</a></li>
+ <li> <a href="https://getbootstrap.com/">Bootstrap</li>
+</ul>
